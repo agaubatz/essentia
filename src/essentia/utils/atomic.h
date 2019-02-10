@@ -61,7 +61,7 @@ typedef std::atomic<int> Atomic;
 
 #elif defined(OS_WIN32)
 
-
+#define NOMINMAX //agaubatz
 #include <windows.h>
 
 namespace essentia {

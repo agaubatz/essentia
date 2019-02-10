@@ -8,9 +8,12 @@ build
 *~
 .waf-*
 .waf3-*
+waf3-*
 .lock-waf*
 .vscode
 buildw/
+.vs/*
+*.vcxproj*
 
 # hide the debian stuff
 build-arch-stamp

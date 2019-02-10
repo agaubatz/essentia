@@ -22,6 +22,7 @@
 
 
 #ifdef OS_WIN32
+#define NOMINMAX //agaubatz
 #   include <windows.h>
 #else // OS_WIN32
 #   include <pthread.h>

@@ -19,6 +19,8 @@
 
 #include "jsonconvert.h"
 
+#pragma warning (disable : 4146) //agaubatz
+
 using namespace std;
 using namespace essentia;
 

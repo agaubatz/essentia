@@ -18,6 +18,7 @@
  */
 
 #ifdef _WIN32
+#define NOMINMAX //agaubatz
 #include <windows.h>
 #endif
 

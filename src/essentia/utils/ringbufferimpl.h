@@ -24,6 +24,7 @@
 
 #ifdef OS_WIN32
 
+#define NOMINMAX //agaubatz
 #include <windows.h>
 
 class Condition {
