@@ -236,11 +236,11 @@ class ESSENTIA_API EssentiaFactory {
 namespace essentia {
 
 namespace standard {
-  typedef EssentiaFactory<Algorithm> AlgorithmFactory;
+  typedef ESSENTIA_API EssentiaFactory<Algorithm> AlgorithmFactory;
 }
 
 namespace streaming {
-  typedef EssentiaFactory<Algorithm> AlgorithmFactory;
+  typedef ESSENTIA_API EssentiaFactory<Algorithm> AlgorithmFactory;
 }
 
 } // namespace essentia

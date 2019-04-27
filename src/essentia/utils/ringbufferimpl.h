@@ -25,6 +25,7 @@
 #ifdef OS_WIN32
 
 #define NOMINMAX //agaubatz
+#define WIN32_LEAN_AND_MEAN //agaubatz
 #include <windows.h>
 
 class Condition {
